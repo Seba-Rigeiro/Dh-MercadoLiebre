@@ -191,29 +191,29 @@ background-color: #0022AA;
 footer {
     display: flex;
     flex-wrap: wrap;
-    }
+    width: 90%;
+    margin:auto;
+}
 
 footer div{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    
     width: 300px;
-    align-items: center;
-    position: relative;
-    padding: 15px;
+    padding: 10px;
+    
 }
 
 footer div i{
-    display: flex;
-    padding: 5px;
+    
+    display: block;
+    position: relative;
+    color: #0044AA;
     width: 30px;
     height: 30px;
-    color: #0044AA;
-    position: absolute;
-    right: 10px;
-    top: -10px;
-    align-items: baseline;
+    right: 20px;
     
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
     }
 
 @media (min-width: 480px){
