@@ -193,27 +193,37 @@ footer {
     flex-wrap: wrap;
     width: 90%;
     margin:auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 footer div{
     
-    width: 300px;
+    width: 33%;
     padding: 10px;
     
 }
 
-footer div i{
+footer div span{
     
-    display: block;
-    position: relative;
-    color: #0044AA;
-    width: 30px;
-    height: 30px;
-    right: 20px;
-    
+    display: block;    
+    color: #0044AA;       
     margin: auto;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 10px;
+    }
+
+    footer div span i:hover{
+        color: #f0cc18;
+    }
+
+    footer div h4{
+        text-align:center;
+        padding-bottom: 1px;
+    }
+
+    footer div p{
+        text-align: center;
     }
 
 @media (min-width: 480px){
